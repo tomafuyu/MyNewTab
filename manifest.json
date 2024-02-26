@@ -12,5 +12,8 @@
     "permissions": [
         "storage",
         "unlimitedStorage"
-    ]
+    ],
+    "icons": {
+        "32": "./icon32.png"
+    }
 }
