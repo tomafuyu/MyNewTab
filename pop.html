@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="color-scheme" content="dark">
+    <meta charset="UTF-8">
+    <title>pop opt</title>
+    <script src="./pop.js" defer></script>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        input[type="radio"] {
+            position: relative;
+        }
+        input[type="radio"]::after {
+            content: attr(value);
+            position: absolute;
+            left: 120%;
+        }
+    </style>
+</head>
+<body>
+    <h3>Image</h3>
+    <input type="file" accept="image/*" id="image-file" />
+    <hr />
+    <h3>Position</h3>
+    <ul>
+        <li><input type="radio" name="pos" value="center" checked /></li>
+        <li><input type="radio" name="pos" value="top" /></li>
+        <li><input type="radio" name="pos" value="bottom" /></li>
+        <li><input type="radio" name="pos" value="left" /></li>
+        <li><input type="radio" name="pos" value="right" /></li>
+    </ul>
+</body>
+</html>

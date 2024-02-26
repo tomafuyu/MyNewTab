@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "My New Tab",
+    "description": "",
+    "version": "1.0.0",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "action": {
+        "default_popup": "pop.html"
+    },
+    "permissions": [
+        "storage",
+        "unlimitedStorage"
+    ]
+}
