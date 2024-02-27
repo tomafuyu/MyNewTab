@@ -13,4 +13,4 @@ Positions
 
 ### Install Hints
 1. `git clone https://github.com/tomafuyu/MyNewTab.git`
-2. [chrome://extensions](chrome://extensions)
+2. chrome://extensions
