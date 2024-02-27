@@ -10,3 +10,7 @@ Positions
 * bottom
 * left
 * right
+
+### Install Hints
+1. `git clone https://github.com/tomafuyu/MyNewTab.git`
+2. <chrome://extensinos>
